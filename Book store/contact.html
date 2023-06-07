@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us quickly</title>
+    <style>
+        body{
+        padding: 0;
+        margin: 0;
+        
+  background-image: url('contactiamge.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  font-family: 'Times New Roman', Times, serif;
+
+    }
+    .content h1{
+        letter-spacing: 1px;
+        
+    }
+    
+    .content{
+        text-align: right;
+        font-size: 30px;
+        margin-left: 100px;
+        
+    }
+    
+.wrapper{
+width: 100%;
+max-width: 680px;
+margin: 100px auto 0;
+padding:20px ;
+box-sizing: border-box;
+}
+.form{
+    width: 100%;
+    margin: 25px 0;
+}
+.top-form, 
+.middle-form,
+.bottom-form{
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.form input[ type="text"],
+.form textarea{
+    padding:15px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    border:2px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+.form input:focus
+.form textarea:focus{
+    border-color: #4ca1af;
+    box-shadow: #110f82;
+}
+.form .label{
+    margin-bottom: 5px;
+
+}
+.top-form .inner-form{
+    width:29.9%;
+    float: left;
+    margin-right: 5%;
+    
+}
+.top-form .inner-form:last-child{
+    margin-right: 0;
+}
+.middle form{
+    clear:both;
+}
+.bottom-form textarea{
+    height: 120px;
+}
+.btn{
+    background: #4ca1af;
+    width: 200px;
+    padding:10px 0;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    font-family:cursive;
+    text-transform:capitalize;
+}
+::-moz-input-placeholder{
+    font-family:cursive;
+    text-transform:capitalize;
+}
+    ::-ms-input-placeholder{
+    font-family:cursive;
+    text-transform:capitalize;}
+    @media screen and ( max-width: 460px){
+        .wrapper{
+            margin: 25px auto 0;
+        }
+
+    .top-form .inner-form{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .back{
+           
+           width: 150px;
+           height: 30px;
+           
+           text-decoration: none;
+           text-align: right;
+           width: 200px;
+    padding:10px 0;
+    border-radius: 2px;
+    
+    
+    
+    
+          }
+          .back{
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+   position: absolute;
+               top: 95%;
+               right: -1%;
+               transform: translate(-50%,-50%);}
+               
+             
+   
+   .back:hover {
+     background-color: rgb(38, 255, 0); 
+     color: rgb(34, 1, 1);
+   }
+    </style>
+</head>
+<body>
+<form>
+<div class="wrapper">
+<div class="content">
+    <h1>Contact Us</h1>
+    <p>
+        Fill out the form below and we'll <br>
+        be in touch as soon as possible!
+    </p>
+    <h3> Personal Information</h3>
+</div>
+</div>
+<div class="form">
+    <div class="top-form">
+        <div class="inner-form">
+            <div class="label">Name</div>
+            <input type="text" placeholder="name">
+        </div>
+        <div class="inner-form">
+            <div class="label">E-mail</div>
+            <input type="text" placeholder="example@gmail.com">
+        </div>
+        <div class="inner-form">
+            <div class="label">Phone</div>
+            <input type="text" placeholder="number">
+        </div>
+    </div>
+    <div class="middle-form">
+        <div class="inner-form">
+            <div class="label">Subject</div>
+            <input type="text" placeholder="subject">
+    </div>
+    <div class="bottom-form">
+        <div class="inner-form">
+            <div class="label"> Message</div>
+            <textarea placeholder="your message"></textarea>
+    </div>
+</div>
+<div class="btn">send form</div>
+</div>
+</form>
+<div class="back">
+      <a href="index.html" class="back">BACK</a> 
+</div>
+
+
+    
+</body>
+</html>
